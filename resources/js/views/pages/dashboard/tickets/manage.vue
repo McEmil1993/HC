@@ -420,7 +420,7 @@ export default {
             });
         },
         connectAndSetupSocket() {
-            this.socket = io('http://192.168.176.104:3000'); // Adjust the URL to your server
+            this.socket = io('http://195.35.9.171:3000'); // Adjust the URL to your server
 
             this.socket.on('connect', () => {
             console.log('Connected to server as admin/customer');
