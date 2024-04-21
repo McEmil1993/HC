@@ -36,15 +36,7 @@
                 {{ $t('Create account') }}
             </router-link>
         </p>
-        <p class="text-gray-700 text-sm">
-            {{ $t('You can not access your account?') }}
-            <router-link
-                class="align-baseline font-bold text-blue-500 hover:text-blue-800"
-                to="/auth/recover"
-            >
-                {{ $t('Recover account') }}
-            </router-link>
-        </p>
+       
     </form>
 </template>
 
