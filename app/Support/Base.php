@@ -28,12 +28,12 @@ class Base
         switch ($icon) {
             case null:
             case 'default':
-                return asset('images/default/sample.png');
+                return asset('images/default/logo.png');
             default:
                 if (Storage::disk('public')->exists($icon)) {
                     return url(Storage::disk('public')->url($icon));
                 }
-                return asset('images/default/sample.png');
+                return asset('images/default/logo.png');
         }
     }
 
