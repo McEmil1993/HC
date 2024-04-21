@@ -113,7 +113,7 @@ export default {
 
     methods:{
         // getSocket(){
-        //     const socket = io('http://192.168.175.104:3000');
+        //     const socket = io('http://195.35.9.171:3000');
         //     socket.on('connect', () => {
         //         console.log('connected to socket.io server');
                 
