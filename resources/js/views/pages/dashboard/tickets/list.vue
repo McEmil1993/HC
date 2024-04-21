@@ -161,7 +161,7 @@
                                                             </div>
                                                             <div class="col-span-3 mb-2">
                                                                 <label class="block text-sm font-medium leading-5 text-gray-700" for="label">
-                                                                    {{ $t('Statuses') }}
+                                                                    {{ $t('Status') }}
                                                                 </label>
                                                                 <input-select
                                                                     id="status"

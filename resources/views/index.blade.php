@@ -16,7 +16,7 @@
         'name'=> Setting::get('app_name', env('APP_NAME')),
         'register' => Setting::get('app_user_registration') ? true : false,
         'icon'=> Base::icon(),
-        'background'=> Base::background(),
+        'background'=> '',
         'recaptcha_enabled' => Setting::get('recaptcha_enabled') ? true : false,
         'recaptcha_public' => Setting::get('recaptcha_public'),
         'meta_home_title' => Setting::get('meta_home_title'),

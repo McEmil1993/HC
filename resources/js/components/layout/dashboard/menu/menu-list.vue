@@ -50,7 +50,7 @@
         ></menu-item>
         <menu-item
             v-if="$store.state.permissions && $store.state.permissions['App.Http.Controllers.Api.Dashboard.Admin.StatusController']"
-            :label="$t('Statuses')"
+            :label="$t('Status')"
             :mobile="mobile"
             icon="font-awesome.tasks-regular"
             to="/dashboard/admin/statuses"
